@@ -4,6 +4,7 @@ body {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #f4f4f4;
 }
 
 h1, h2, h3 {
@@ -47,4 +48,46 @@ p, ul, ol {
     border-radius: 15px;
     margin-left: 10px;
     padding: 0 40px 10px;
+}
+
+a {
+    color: black;
+}
+
+ul.main-page {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.main-page a {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border: 1px solid burlywood;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-page a:hover {
+    background-color: #f4d7b2;
+}
+
+.recipe-item {
+    text-align: center;
+    width: 280px;
+}
+
+.thumbnail {
+    display: block;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    padding: 5px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
 }
